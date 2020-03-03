@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\FBRxweb.BoundedContext\FBRxweb.BoundedContext.csproj" />
+    <ProjectReference Include="..\FBRxweb.UnitOfWork\FBRxweb.UnitOfWork.csproj" />
+    <ProjectReference Include="..\FBRxweb.Models\FBRxweb.Models.csproj" />
+    <ProjectReference Include="..\FBRxweb.Infrastructure\FBRxweb.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewOnlineUserDomain\" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
